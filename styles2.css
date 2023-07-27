@@ -1,0 +1,215 @@
+#mainContent{
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+    height: 100%;
+}
+.section{
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    background-repeat: no-repeat;
+    postion: relative;
+    height: 600px;
+}
+.section.one{
+    background-image: 
+    url(IGMockupsJun11.png);
+}
+.overlay{
+    background-color: rgba(255, 255, 255, .5)
+    position: absolute;
+    top: 500px;
+    width: 400px;
+    height: 50px;
+    overflow: hidden;
+    -webkit-transition: all 1s  
+    ease-in-out .2s;
+    -moz-transition: all 1s  
+    ease-in-out .2s;
+    -ms-transition: all 1s  
+    ease-in-out .2s;
+    -o-transition: all 1s  
+    ease-in-out .2s;
+    transition:-transition: all 1s  
+    ease-in-out .2s;
+}
+.overlay:hover {
+    height: 600px;
+    top: 0;
+}
+body{
+    background: rgb(255, 255, 255);
+    transition: 1s ease;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background: #d3d3d3;
+    }
+}
+    @media screen and (max-width: 400px){
+        body{
+            background: #d3d3d3
+        }
+    }
+
+    section img{
+        max-width: 100%;
+    }
+    div.content{
+
+    }
+    header{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+
+    }
+    header h2{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    header img {
+        float: left;
+        margin-right: 20px;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(228, 228, 228);
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #d3d3d3;
+        width: 100%;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+    }
+li a:hover{
+    background-color: rgb(27, 99, 150);
+}
+.active{
+    background-color: rgb(27, 99, 150);
+}
+.teaser img{
+    width: 40%;
+    float: left;
+}
+    @media screen and (min-width: 601px){
+        li{
+            width: 25%;
+            margin: 0;
+            padding: 0;
+            float: left;
+            box-sizing: border-box;
+        }
+
+    * {
+        box-sizing: border-box;
+    }    
+
+body {
+    font: normal .8em/1.5 sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+    }
+    nav{
+        overflow: hidden;
+    }
+    .teaser, .mission, article{
+        width: 33%;
+        float: left;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+    .content{
+        overflow: hidden;
+    }
+
+    header{
+        background-color: rgba(184, 197, 219, 1.0);
+
+    }
+    header h1{
+        margin-top: 0;
+    }
+
+    li{
+        margin: 0;
+        padding: 0;
+    }
+
+    @media screen and (min-width: 200px) and (mad-width: 480px){
+        header h1{
+            padding: .25em;
+            text-align: center;
+        }
+        nav{
+            font-size: 1.3 em;
+            width: 80%;
+            margin: 0 auto;
+        }
+        nav ul{
+            margin: 0;
+            padding: .1em;
+        }
+        nav li{
+            background-color: #d3d3d3;
+            border-radius: 1em;
+            list-style-type: none;
+            width: 100%;
+            margin-bottom: 1em;
+            text-align: center;
+        }
+        nav a{
+            padding: .8em;
+            display: inline-block;
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 481px) and (mad-width: 768px){
+        header h1{
+            padding: .6em;
+            text-align: center;
+        }
+    
+        
+        nav{
+            background-color: #d3d3d3(148, 187, 255, 1.0);
+            font-size: 1.4em;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+        }
+        nav li{
+            display: inline;
+        }
+        nav a{
+            display: inline-block;
+            padding: 1em;
+            text-decoration: none;
+        }
